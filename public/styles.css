@@ -1,0 +1,24 @@
+
+#cart-list li {
+    display: flex;
+    flex-direction: row;
+  }
+  
+#cart-list li img {
+    margin-bottom: 1rem;
+}
+
+.removeBtn {
+    margin-top: 1rem;
+    width: 70%;
+}
+  
+
+@media (max-width: 768px) {
+    #cart-list li {
+        flex-direction: column;
+    }
+    .removebtn {
+        width: 100%;
+    }
+}
